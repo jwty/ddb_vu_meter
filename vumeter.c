@@ -837,7 +837,7 @@ vumeter_draw_retro (w_vumeter_t *w, cairo_t *cr, int width, int height)
         if (home_dir && strcmp(home_dir, "") == 0) {
             home_dir = NULL;
         }
-        const int sz = snprintf (path, PATH_MAX, "%s/.local/lib/deadbeef/vumeterStereo.png", home_dir);
+        const int sz = snprintf (path, PATH_MAX, "%s/.local/lib/deadbeef/vumeter.png", home_dir);
         if (!home_dir || !path) {
             return;
         }
