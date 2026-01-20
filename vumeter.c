@@ -1259,7 +1259,7 @@ static DB_misc_t plugin = {
         "along with this program; if not, write to the Free Software\n"
         "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.\n"
     ,
-    .plugin.website         = "https://github.com/cboxdoerfer/ddb_vu_meter",
+    .plugin.website         = "https://github.com/jwty/ddb_vu_meter",
     .plugin.start           = vu_meter_start,
     .plugin.stop            = vu_meter_stop,
     .plugin.connect         = vu_meter_connect,

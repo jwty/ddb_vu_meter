@@ -4,17 +4,17 @@
 if [ -f ./gtk2/ddb_vis_vu_meter_GTK2.so ]; then
 	/usr/bin/install -v -c -m 644 ./gtk2/ddb_vis_vu_meter_GTK2.so ${HOME}/.local/lib/deadbeef/
 else
-	/usr/bin/install -v -c -m 644 ./ddb_vis_vu_meter_GTK2.so ${HOME}/.local/lib/deadbeef/
+	echo "Warning: No GTK2 version found."
 fi
 ## GTK3 version
 if [ -f ./gtk3/ddb_vis_vu_meter_GTK3.so ]; then
 	/usr/bin/install -v -c -m 644 ./gtk3/ddb_vis_vu_meter_GTK3.so ${HOME}/.local/lib/deadbeef/
 else
-	/usr/bin/install -v -c -m 644 ./ddb_vis_vu_meter_GTK3.so ${HOME}/.local/lib/deadbeef/
+	echo "Warning: No GTK3 version found."
 fi
 
 # retro stereo VU meter
-/usr/bin/install -v -c -m 644 ./vumeterStereo.png ${HOME}/.local/lib/deadbeef/
+/usr/bin/install -v -c -m 644 ./vumeter.png ${HOME}/.local/lib/deadbeef/
 
 CHECK_PATHS="/usr/local/lib/deadbeef /usr/lib/deadbeef"
 for path in $CHECK_PATHS; do
