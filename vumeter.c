@@ -372,7 +372,7 @@ _draw_h_bar_gradient_h (gpointer user_data, uint8_t *data, int stride, int x0, i
     while(x <= w) {
         y = y0;
         ptr = (uint32_t*)&data[y*stride+x*4];
-        index = ftoi(((double)x/(double)total_w) * (GRADIENT_TABLE_SIZE - 1));
+        index = (GRADIENT_TABLE_SIZE - 1) - ftoi(((double)x/(double)total_w) * (GRADIENT_TABLE_SIZE - 1));
         index = CLAMP (index, 0, GRADIENT_TABLE_SIZE - 1);
         while(y <= (y0 + h)) {
             *ptr = s->colors[index];
@@ -414,7 +414,7 @@ _draw_h_bar_gradient_h_bar_mode (gpointer user_data, uint8_t *data, int stride, 
     while(x <= w) {
         y = y0;
         ptr = (uint32_t*)&data[y*stride+x*4];
-        index = ftoi(((double)x/(double)total_w) * (GRADIENT_TABLE_SIZE - 1));
+        index = (GRADIENT_TABLE_SIZE - 1) - ftoi(((double)x/(double)total_w) * (GRADIENT_TABLE_SIZE - 1));
         index = CLAMP (index, 0, GRADIENT_TABLE_SIZE - 1);
         while(y <= (y0 + h)) {
             *ptr = s->colors[index];
