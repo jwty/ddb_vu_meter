@@ -18,7 +18,10 @@ AUR package ([deadbeef-plugin-vu-meter-git](https://aur.archlinux.org/packages/d
 ## Screenshots
 
 ### VU Bars
-![vu meter in bars mode](https://github.com/jwty/ddb_vu_meter/raw/master/screenshots/VU.png "VU meter in bars mode")
+#### Vertical
+![vu meter in vertical bars mode](https://github.com/jwty/ddb_vu_meter/raw/master/screenshots/VU.png "VU meter in vertical bars mode")
+#### Horizontal
+![vu meter in horizontal bars mode](https://github.com/jwty/ddb_vu_meter/raw/master/screenshots/VU-horizontal.png "VU meter in horizontal bars mode")
 
 ### Retro VU meter
 ![vu meter in retro mode](https://github.com/jwty/ddb_vu_meter/raw/master/screenshots/retroVU.png "VU meter in retro mode")
@@ -27,3 +30,4 @@ AUR package ([deadbeef-plugin-vu-meter-git](https://aur.archlinux.org/packages/d
 * [Pull request #2](https://github.com/cboxdoerfer/ddb_vu_meter/pull/2) by [MarcRdC](https://github.com/MarcRdC)
 * [Pull request #4](https://github.com/cboxdoerfer/ddb_vu_meter/pull/4) by [macearl](https://github.com/macearl)
 * [Pull request #10](https://github.com/cboxdoerfer/ddb_vu_meter/pull/10) by [fallcom](https://github.com/fallcom)
+* [Pull request #6](https://github.com/cboxdoerfer/ddb_vu_meter/pull/6) by [JUGGERNAUT13](https://github.com/JUGGERNAUT13)
